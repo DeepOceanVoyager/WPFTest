@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HelloWPF/1.0.0": {
+        "dependencies": {
+          "ControlLibrary": "1.0.0"
+        },
+        "runtime": {
+          "HelloWPF.dll": {}
+        }
+      },
+      "ControlLibrary/1.0.0": {
+        "runtime": {
+          "ControlLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

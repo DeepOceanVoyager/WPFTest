@@ -1,0 +1,50 @@
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.exe
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.deps.json
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.runtimeconfig.json
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.dll
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.pdb
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.AssemblyReference.cache
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\App.g.cs
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF_MarkupCompile.cache
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF_MarkupCompile.lref
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\MainWindow.baml
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.g.resources
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.AssemblyInfoInputs.cache
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.AssemblyInfo.cs
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.CoreCompileInputs.cache
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.dll
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\refint\HelloWPF.dll
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.pdb
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.genruntimeconfig.cache
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\ref\HelloWPF.dll
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\ControlLibrary.dll
+D:\visual studio\WPF01\HelloWPF\bin\Debug\net6.0-windows\ControlLibrary.pdb
+D:\visual studio\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.CopyComplete
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.exe
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.deps.json
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.runtimeconfig.json
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.dll
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\HelloWPF.pdb
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\ControlLibrary.dll
+D:\VisualStudioProject\WPF01\HelloWPF\bin\Debug\net6.0-windows\ControlLibrary.pdb
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.AssemblyReference.cache
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\App.g.cs
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF_MarkupCompile.cache
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF_MarkupCompile.lref
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\MainWindow.baml
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.g.resources
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.AssemblyInfoInputs.cache
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.AssemblyInfo.cs
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.csproj.CopyComplete
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.dll
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\refint\HelloWPF.dll
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.pdb
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\HelloWPF.genruntimeconfig.cache
+D:\VisualStudioProject\WPF01\HelloWPF\obj\Debug\net6.0-windows\ref\HelloWPF.dll

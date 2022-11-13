@@ -1,0 +1,97 @@
+﻿<Window x:Class="HelloWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+        xmlns:local="clr-namespace:HelloWPF"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        xmlns:control="clr-namespace:ControlLibrary;assembly=ControlLibrary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="ThreeDBorderWindow"  WindowStartupLocation="CenterScreen">
+    <!--xmlns：引用命名空间，但没有为此命名空间设定前缀，说明将此定为了默认命名空间，
+            声明默认命名空间的对象无需前缀（比如Window和Grid），一般将最常用的命名空间设为默认
+        xmlns:x：引用命名空间，且将此命名空间前缀设为x，若声明此命名空间的对象就需要在前面加上“x:”，
+            比如Ignorable前面就加上了“mc:”
+        Class属性的意思是，编译时将此xaml文件编译成HelloWPF.MainWindow部分（partial）类，
+            与开发者写的HelloWPF.MainWindow部分类合并
+        xml语言中的属性值必须有引号（都是字符串），双引号单引号均可，若属性值本身有双引号，就用单引号包围
+    -->
+    <Window.Resources>
+        <local:Human x:Key="human" Name="Tim" Child="LittleTim"/>
+        <!--在这里使用字符串为Human的Child属性赋了值，虽然Child属性的值也是个Human对象
+            但我们为Human类加了一个类型转换（TypeConverter）特性，就可以使字符串类型转换成Human类型
+            这种赋值方法不仅复杂，而且可以赋的值的类型很少，复杂度也很低
+            注：这里的Key来自x前缀代表的引用空间，用途类似于JS中的Id
+                声明在Window.Resources中的内容是WPF项目中的各种资源
+                WPF通过字典来维护它的资源，而字典是通过键来找值的，所以Key可以用在这个地方
+        -->
+        <sys:String x:Key="stringHello">Hello WPF!</sys:String>
+    </Window.Resources>
+    <Grid Margin="4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="160"/>
+        </Grid.RowDefinitions>
+        <Button Width="120" Click="Button_Click">
+            <!--在一对包含 对象类名 的尖括号之间的语句就是这个对象的“内容”
+                如果不包含内容，就可以简写成：<对象类名 属性="值" .../> 
+            -->
+            <Button.Content>
+                <!--在一对包含 对象类名.属性 的尖括号之间的语句就是这个属性的“内容”-->
+                <Rectangle Width="20" Height="20" Stroke="Black" Fill="White"/>
+                <!--在这里我们通过 内容 为 对象的属性 赋了一个相对复杂的值
+                    把一个矩形作为按钮显示内容的值
+                    通过属性内容赋值的方法可以赋比字符串复杂许多的值
+                -->
+            </Button.Content>
+            <Button.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.StartPoint>
+                        <Point X="0" Y="0"/>
+                    </LinearGradientBrush.StartPoint>
+                    <LinearGradientBrush.EndPoint>
+                        <Point X="1" Y="1"/>
+                    </LinearGradientBrush.EndPoint>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Offset="0" Color="Green"/>
+                            <GradientStop Offset="0.5" Color="Yellow"/>
+                            <GradientStop Offset="1" Color="Red"/>
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+                <!--在这里我们通过 内容 为 对象的属性 赋了一个非常复杂的值
+                    把一个线性渐变色作为按钮背景颜色的值
+                    这里可以体现，如果赋的值的引用变量比较多，写出来的语句会嵌套得非常复杂
+                    应该与属性字符串赋值结合起来用
+                    如：
+                    ...
+                    <LinearGradientBrush.StartPoint>
+                        <Point X="0" Y="0"/>
+                    </LinearGradientBrush.StartPoint>
+                    ...
+                    可以简写成：                    
+                    <LinearGradientBrush StartPoint="0,0">
+                -->
+            </Button.Background>
+        </Button>
+        <TextBlock Width="120" Grid.Row="2" Background="LightBlue"
+                   Text="{StaticResource ResourceKey=stringHello}"/>
+        <!--大括号内是标签扩展，标签拓展已经有大括号了，其中的值就无需大括号了（其实原理都不同了，记住就好）
+            标签拓展里的属性之间用逗号隔开，而不是xml使用的空格隔开
+        -->
+        <TextBlock x:Name="tb" Width="120" Grid.Row="4" Background="LightBlue"
+                   Text="{Binding ElementName=sld,Path=Value}"/>
+        <!--大括号内是标签扩展
+        -->
+        <Slider x:Name="sld" Width="300" Grid.Row="6" Maximum="100" Background="LightBlue"/>
+        <control:SalaryCalculator Grid.Row="8"/>
+    </Grid>
+</Window>

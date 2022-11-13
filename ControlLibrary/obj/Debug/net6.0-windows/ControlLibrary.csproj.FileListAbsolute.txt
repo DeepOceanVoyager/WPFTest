@@ -1,0 +1,21 @@
+D:\visual studio\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.csproj.AssemblyReference.cache
+D:\visual studio\WPF01\ControlLibrary\obj\Debug\net6.0-windows\SalaryCalculator.g.cs
+D:\visual studio\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary_MarkupCompile.cache
+D:\visual studio\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary_MarkupCompile.lref
+D:\VisualStudioProject\WPF01\ControlLibrary\bin\Debug\net6.0-windows\ControlLibrary.deps.json
+D:\VisualStudioProject\WPF01\ControlLibrary\bin\Debug\net6.0-windows\ControlLibrary.dll
+D:\VisualStudioProject\WPF01\ControlLibrary\bin\Debug\net6.0-windows\ControlLibrary.pdb
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.csproj.AssemblyReference.cache
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\SalaryCalculator.g.cs
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary_MarkupCompile.cache
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary_MarkupCompile.lref
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\SalaryCalculator.baml
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.g.resources
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.AssemblyInfoInputs.cache
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.AssemblyInfo.cs
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.dll
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\refint\ControlLibrary.dll
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ControlLibrary.pdb
+D:\VisualStudioProject\WPF01\ControlLibrary\obj\Debug\net6.0-windows\ref\ControlLibrary.dll
